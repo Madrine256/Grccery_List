@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans+Condensed:wght@300&family=Oswald:wght@200&family=PT+Serif&family=Poppins:wght@300&family=Roboto+Condensed:wght@300&family=Satisfy&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: url("https://images.pexels.com/photos/5946083/pexels-photo-5946083.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  margin: 3rem auto;
+  width: 80%;
+  height: 100%;
+}
+
+.groceries h1 {
+  font-family: "Satisfy", cursive;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  text-align: center;
+}
+
+.groceries .input-group {
+  width: 100%;
+  padding: 1rem 3rem;
+  position: relative;
+}
+
+.groceries .input-group input {
+  padding: 1rem 5rem;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  background: none;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.groceries .input-group i {
+  font-size: 2rem;
+  color: red;
+  position: absolute;
+  padding: 1rem;
+}
+
+.itemsList {
+  padding: 1rem 0  1rem 4rem;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 0, 0.4)), to(rgba(255, 255, 0, 0.1)));
+  background: linear-gradient(to right, rgba(255, 255, 0, 0.4), rgba(255, 255, 0, 0.1));
+}
+
+.item-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-bottom: 1px solid gray;
+  padding: 1rem;
+}
+
+.item-box .box-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.item-box .box-wrap .check-box {
+  width: 30px;
+  height: 20px;
+  border: 1px solid #000;
+  background: #fff;
+  display: block;
+  margin: 1rem .5rem 0 0;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.item-box .box-wrap .check-box .fa-check {
+  font-size: 1rem;
+  font-weight: bolder;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  color: #fff;
+}
+
+.item-box label {
+  text-transform: capitalize;
+  font-size: clamp(2rem 4vw 3rem);
+  font-weight: bold;
+  font-family: "Roboto Condensed" , serif;
+  margin-top: 1rem;
+}
+
+.item-box .price {
+  max-width: 100px;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.totals {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.5)));
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.5));
+}
+
+.totals h3 {
+  font-size: 2rem;
+}
+
+.totals h4 {
+  font-size: 2rem;
+}
+/*# sourceMappingURL=main.css.map */
